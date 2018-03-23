@@ -26,3 +26,6 @@
 /config/master.key
 .idea/*
 
+# Ignore secrets and database
+/config/database.yml
+/config/secrets.yml
