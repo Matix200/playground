@@ -6,8 +6,7 @@
       .row
         .col-sm-8.col-sm-offset-2.text-center
           .widget.widget-about
-            %a{:href => "home-version-1.html"}
-              %img{:alt => "logo", :src => "images/logo.png"}/
+            =link_to image_tag("logo.png", alt: "logo"), {action: 'home', controller: 'static_pages_controller'}
             %br/
             %br/
             %p A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.
