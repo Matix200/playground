@@ -32,6 +32,9 @@
 pl:
   header:
     e-mail: "federacja@cannabishouse.eu"
+
+  footer:
+    up_to_date: "Bądź z nami na bieżąco:"
     
   home: 
     title: "zxc"

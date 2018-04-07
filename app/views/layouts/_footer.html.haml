@@ -6,10 +6,8 @@
       .row
         .col-sm-8.col-sm-offset-2.text-center
           .widget.widget-about
-            =link_to image_tag("logo.png", alt: "logo"), {action: 'home', controller: 'static_pages_controller'}
-            %br/
-            %br/
-            %p A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.
+            %p
+              =I18n.t('footer.up_to_date')
             %hr.hr-1/
             %ul.social
               %li
