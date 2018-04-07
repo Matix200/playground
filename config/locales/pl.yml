@@ -30,11 +30,18 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 pl:
+  header:
+    e-mail: "federacja@cannabishouse.eu"
+    
   home: 
     title: "zxc"
+
   about: 
     title: "O nas"
+    
   contact: 
     title: "Kontakt"
+  
   hello: "Cześć"
 
+  
