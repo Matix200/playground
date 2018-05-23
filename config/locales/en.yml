@@ -30,4 +30,18 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  header:
+    e-mail: "federacja@cannabishouse.eu" 
+
+  home: 
+    title: "Home"
+
+  about: 
+    title: "About"
+
+  contact: 
+    title: "Contact"
+
+  hello: "Hello"
+
+
